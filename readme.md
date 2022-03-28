@@ -22,11 +22,12 @@ pnpm add @romain-faust/upload-file
 
 ## Usage
 
+<!-- prettier-ignore -->
 ```ts
 import type { UploadFile } from '@romain-faust/upload-file'
 
 const uploadFile: UploadFile = (path, data) => {
-	// ...
+    // ...
 }
 ```
 
