@@ -1,0 +1,35 @@
+{
+	"author": {
+		"email": "romain.faust@gmail.com",
+		"name": "Romain Faust"
+	},
+	"devDependencies": {
+		"@romain-faust/prettier-config": "~2.4.0",
+		"husky": "~7.0.4",
+		"lint-staged": "~12.3.7",
+		"prettier": "~2.6.1",
+		"rxjs": "~7.5.5",
+		"typescript": "~4.6.3"
+	},
+	"files": [
+		"changelog.md",
+		"index.d.ts",
+		"license.md",
+		"package.json",
+		"readme.md"
+	],
+	"license": "MIT",
+	"name": "@romain-faust/upload-file",
+	"peerDependencies": {
+		"rxjs": "^7.5.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/romain-faust/upload-file"
+	},
+	"scripts": {
+		"typecheck": "tsc --noEmit"
+	},
+	"types": "index.d.ts",
+	"version": "1.0.0"
+}
