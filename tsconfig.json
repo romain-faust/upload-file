@@ -5,7 +5,6 @@
 		"lib": ["ES2021"],
 		"module": "CommonJS",
 		"moduleResolution": "Node",
-		"newLine": "LF",
 		"noEmit": true,
 		"noErrorTruncation": true,
 		"noImplicitAny": true,
